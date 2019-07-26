@@ -6,6 +6,6 @@ Requirements
 *  `sudo apt-get install libusb-1.0-0-dev libusb-1.0 -y `
 
 build with: 
- gcc g400s.c -o g400s `pkg-config --libs --cflags libusb-1.0`
+ gcc ` g400s.c -o g400s `pkg-config --libs --cflags libusb-1.0` `
 
 This is tested in Ubuntu 18.04 and 19.04Beta x64
