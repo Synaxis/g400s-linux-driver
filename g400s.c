@@ -3,12 +3,12 @@ Change DPI and driver mode on Logitech "G400s Gaming Mouse"
 By Matti 'ccr' Hamalainen <ccr@tnsp.org>
 Based on https://bitbucket.org/extaliones/g400_hack/raw/b1a0f430dcb1c10991294447bf4f74a6acfff748/g400_hack.c
 by Przemek Aksamit <extaliones dot gmail.com>
-Compilation: gcc -o g400s_hack g400s_hack.c `pkg-config libusb-1.0 --cflags --libs` */
+Compilation: gcc -o g400s g400s.c `pkg-config libusb-1.0 --cflags --libs` */
 
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-#include "libusb/libusb.h"
+#include <libusb.h>
 
 #define G400_VENDOR_ID  0x046d
 #define G400_PRODUCT_ID 0xc24c
