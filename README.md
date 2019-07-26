@@ -1,7 +1,7 @@
 # g400s-linux-driver
 logitech g400s driver linux c 
 
-* `git clone https://github.com/Synaxis/g400s-linux-driver && cd g400s-linux-driver
+* git clone https://github.com/Synaxis/g400s-linux-driver && cd g400s-linux-driver
 Requirements
 *  `sudo apt-get install libusb-1.0-0-dev libusb-1.0 -y `
 
