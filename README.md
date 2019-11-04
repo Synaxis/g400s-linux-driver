@@ -9,4 +9,4 @@ Requirements
 Build with: 
 gcc `` g400s.c -o g400s `pkg-config --libs --cflags libusb-1.0` ``
 
-This is tested in Ubuntu 18.04, 19.04 Beta x64 and 19.10.
+This is tested in Ubuntu 18.04, 19.04 Beta and 19.10 (x64).
